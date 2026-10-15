@@ -21,3 +21,16 @@ Repositório para medição empírica e analítica do comportamento dos algoritm
 Instalação das dependências:
 ```bash
 pip install matplotlib
+
+Como Rodar
+Executar os testes unitários:
+
+Bash
+python testes.py
+(Todos os testes devem retornar OK).
+
+Gerar medições, CSV e gráficos do zero:
+
+Bash
+python medir.py
+(O script regera automaticamente os arquivos dados.csv, grafico_tempos.png e grafico_comparacoes.png).
